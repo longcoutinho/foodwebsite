@@ -1,0 +1,101 @@
+.menu {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 693px;
+}
+
+.menu-banner {
+    width: 100%;
+    height: auto;
+}
+
+
+.menu-bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    margin-left: 448px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.menu-label {
+    position: relative;
+    margin-left: 169px;
+    box-sizing: border-box;
+    width: 29.01%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-label > li {
+    color: white;   
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.calling-me {
+    position: relative;
+    margin-left: 66px;
+    box-sizing: border-box;
+    width: 210px;
+    height: 66px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mini-phone {
+    position: relative;
+    width: 21px;
+    height: 21px;
+    float: left;
+}
+
+.p-phone-number {
+    position: relative;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 500;
+    line-height: 21px;
+    color: white;
+}
+
+.p-phone-number > strong {
+    color: white;
+}
+
+.delivery {
+    position: relative;
+    margin-top: 15px;
+    background-color: #F80823;
+    width: 210px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.p-delivery {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
