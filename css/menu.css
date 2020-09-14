@@ -25,7 +25,7 @@
 
 .logo {
     position: relative;
-    margin-left: 448px;
+    margin-left: 23.33%;
     width: 100px;
     height: 100px;
     background-color: white;
@@ -97,5 +97,36 @@
     font-weight: 500;
     line-height: 17px;
     color: #FFFFFF;
+}
+
+.cart {
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    box-sizing: border-box;
+    width: 96px;
+    height: 190px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-content {
+    width: 100%;
+    height: calc(190px/2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart > .cart-content:first-child {
+    border-bottom: 1px dashed white;
+}
+
+.p-cart {
+    margin-top: 9px;
+    font-size: 15px;
+    color: white;
 }
 
