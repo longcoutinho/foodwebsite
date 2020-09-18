@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/frame.css">
+    <link rel="stylesheet" href="css/container-fluid.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/content.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <div class="frame">
+    <div class="container-fluid p-0">
         <div class="menu">
             <img class="menu-banner" src="img/banner.png" alt="Cannot display the image!">
             <div class="menu-bar">
-                <div class="logo"></div>
+                <div class="logo">
+                    <p class="p-logo">LOGO</p>
+                </div>
                 <ul class="menu-label">
                     <li>Trang chủ</li>
                     <li>Menu</li>
@@ -27,7 +31,7 @@
                     <img class="mini-phone" src="img/dienthoai.png" alt="Cannot display the image!">
                     <p class="p-phone-number">Gọi ngay <strong>1900.1088</strong></p>
                     <div class="delivery">
-                        <p class="p-delivery">Giao hàng tận nơi miễn phí</p>
+                        <span class="p-delivery">Giao hàng tận nơi miễn phí</span>
                     </div>
                 </div>
             </div>
@@ -55,11 +59,11 @@
                 <div class="cart">
                     <div class="cart-content">
                         <img src="img/giohang.png" alt="Cannot display the image!">
-                        <p class="p-cart">GIỎ HÀNG</p>
+                        <span class="p-cart">GIỎ HÀNG</span>
                     </div>
                     <div class="cart-content">
                         <img src="img/xemay.png" alt="Cannot display the image!">
-                        <p class="p-cart">MUA NGAY</p>
+                        <span class="p-cart">MUA NGAY</span>
                     </div>
                 </div>
             </div>
@@ -72,10 +76,87 @@
                     <p class="p-intro-content">Chúng tôi là boubon Việt Nam với hơn 100 cửa hàng trên khắp cả nước, chúng tôi mong muốn đem đến niềm vui ẩm thực cho mọi gia đình Việt bằng những món ăn có chất lượng tốt, hương vị tuyệt hảo, dịch vụ chu đáo với một mức giá hợp lý… Hãy đến và thưởng thức nhé!</p>
                 </div>
                 <div class="order-button">
-                    <p class="p-order-button">Đặt hàng</p>
+                    <span class="p-order-button">Đặt hàng</span>
                 </div>
             </div>
-            <div class="top-recommended"></div>
+            <div class="top-recommended">
+                <div class="top-recommended-title">
+                    <div class="top-recommended-food-title">
+                        <p class="p-top-recommended-food-title">MÓN ĂN BÁN CHẠY</p>
+                    </div>
+                    <div class="top-recommended-option">
+                        <p class="p-top-recommended-option">Combo</p>
+                        <p class="p-top-recommended-option">Gà rán</p>
+                        <p class="p-top-recommended-option">Đồ uống</p>
+                    </div>
+                </div>
+                <div class="grid-menu-recommended row no-gutters">
+                    <div class="grid-item col-xs-3">
+                        <div class="item-image">
+                            <img src="img/sp1.png" alt="Cannot display the image!">
+                        </div>
+                        <p class="item-name">01 MIẾNG GÀ GIÒN VUI VẺ + 01 MÌ Ý SỐT BÒ BẰM + 01 NƯỚC NGỌT (VỪA)</p>
+                        <p class="item-price">40.000 đ</p>
+                        <img class="item-add" src="img/plus.png" alt="Cannot display the image!">
+                    </div>
+                    <div class="grid-item col-xs-3">
+                        <div class="item-image">
+                            <img class="item-image" src="img/sp2.png" alt="Cannot display the image!">
+                        </div>
+                        <p class="item-name">MỲ Ý SỐT BÒ BẰM LỚN + 2 MIẾNG GÀ KHÔNG XƯƠNG + KHOAI TÂY VỪA</p>
+                        <p class="item-price">99.000 đ</p>
+                        <img class="item-add" src="img/plus.png" alt="Cannot display the image!">
+                    </div>
+                    <div class="grid-item col-xs-3">
+                        <div class="item-image">
+                            <img class="item-image" src="img/sp3.jpg" alt="Cannot display the image!">
+                        </div>
+                        <p class="item-name">MỲ Ý SỐT BÒ BẰM LỚN + 2 MIẾNG GÀ KHÔNG XƯƠNG + NƯỚC NGỌT</p>
+                        <p class="item-price">99.000 đ</p>
+                        <img class="item-add" src="img/plus.png" alt="Cannot display the image!">
+                    </div>
+                    <div class="grid-item col-xs-3">
+                        <div class="item-image">
+                            <img class="item-image" src="img/sp4.png" alt="Cannot display the image!">
+                        </div>
+                        <p class="item-name">COMBO GÀ GIÒN CAY ( 2 MIẾNG )</p>
+                        <p class="item-price">99.000 đ</p>
+                        <img class="item-add" src="img/plus.png" alt="Cannot display the image!">
+                    </div>
+                    <div class="grid-item col-xs-3">
+                        <div class="item-image">
+                            <img class="item-image" src="img/sp5.png" alt="Cannot display the image!">
+                        </div>
+                        <p class="item-name">COMBO GÀ GIÒN CAY ( 2 MIẾNG )</p>
+                        <p class="item-price">99.000 đ</p>
+                        <img class="item-add" src="img/plus.png" alt="Cannot display the image!">
+                    </div>
+                    <div class="grid-item col-xs-3">
+                        <div class="item-image">
+                            <img class="item-image" src="img/sp6.png" alt="Cannot display the image!">
+                        </div>
+                        <p class="item-name">CƠM GÀ GIÒN ( 1 MIẾNG GÀ GIÒN, CƠM VÀ XÀ LÁCH</p>
+                        <p class="item-price">99.000 đ</p>
+                        <img class="item-add" src="img/plus.png" alt="Cannot display the image!">
+                    </div>
+                    <div class="grid-item col-xs-3">
+                        <div class="item-image">
+                            <img class="item-image" src="img/sp7.png" alt="Cannot display the image!">
+                        </div>
+                        <p class="item-name">MÌ Ý SỐT BÒ BẰM LỚN + NƯỚC NGỌT</p>
+                        <p class="item-price">99.000 đ</p>
+                        <img class="item-add" src="img/plus.png" alt="Cannot display the image!">
+                    </div>
+                    <div class="grid-item col-xs-3">
+                        <div class="item-image">
+                            <img class="item-image" src="img/sp8.png" alt="Cannot display the image!">
+                        </div>
+                        <p class="item-name">C4 - CƠM GÀ GIÒN - NƯỚC NGỌT</p>
+                        <p class="item-price">99.000 đ</p>
+                        <img class="item-add" src="img/plus.png" alt="Cannot display the image!">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="contact"></div>
     </div>

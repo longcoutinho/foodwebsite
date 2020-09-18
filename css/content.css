@@ -36,9 +36,10 @@
 .p-menu-title-2 {
     position: relative;
     top: 12px;
+    font-family: 'Lato' , sans-serif;
     font-size: 18px;
     font-weight: 600;
-    line-height: 21px;
+    line-height: 24px;
     color: #555555;
 }
 
@@ -121,4 +122,111 @@
 
 .order-button:hover {
     cursor: pointer;
+}
+
+.top-recommended {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 971px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.top-recommended-title {
+    position: absolute;
+    width: 1141px;
+    top: 67px;
+}
+
+.top-recommended-food-title {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.p-top-recommended-food-title{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #333333;
+}
+
+.top-recommended-option {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.p-top-recommended-option {
+    display: inline-block;
+    font-family: 'Lato' , sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #444444;
+}
+
+.p-top-recommended-option:not(:first-child){
+    margin-left: 27px;
+}
+
+.grid-menu-recommended {
+    position: absolute;
+    box-sizing: border-box;
+    top: 120px;
+    width: 1141px;
+    height: 728px;
+    display: grid;
+    grid-column-gap: 31px;
+    grid-row-gap: 28px;
+}
+
+.grid-item {
+    position: relative;
+    box-sizing: border-box;
+    width: 262px;
+    height: 349px;
+}
+
+.item-image {
+    width: 262px;
+    height: 262px;
+}
+
+.item-image > img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-name {
+    position: relative;
+    margin-top: 21px;
+    font-family: 'Lato' , sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.item-price {
+    position: absolute;
+    top: 327px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #FF3939;
+}
+
+.item-add {
+    position: absolute;
+    top: 327px;
+    left: 241px;
+    width: 20px;
+    height: 20px;
 }

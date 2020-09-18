@@ -131,6 +131,7 @@ table {
 
 body {
   -webkit-text-size-adjust: none;
+  width: 100%;
 }
 a {
   text-decoration: none;
