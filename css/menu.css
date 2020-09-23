@@ -1,0 +1,168 @@
+.menu {
+    position: relative;
+    top: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+
+.menu-banner {
+    width: 100%;
+    height: auto;
+}
+
+.menu-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.logo {
+    position: relative;
+    margin-left: 23.33%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.menu-label {
+    position: relative;
+    margin-left: 169px;
+    box-sizing: border-box;
+    width: 29.01%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-label > li {
+    color: white;   
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.menu-label > li:hover {
+    cursor: pointer;
+}
+
+.calling-me {
+    position: relative;
+    margin-left: 66px;
+    box-sizing: border-box;
+    width: 210px;
+    height: 66px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mini-phone {
+    position: relative;
+    width: 21px;
+    height: 21px;
+    float: left;
+}
+
+.mini-phone:hover {
+    cursor: pointer;
+}
+
+.p-phone-number {
+    position: relative;
+    font-size: 20px;
+    margin-left: 34px;
+    font-weight: 500;
+    line-height: 21px;
+    color: white;
+}
+
+.p-phone-number:hover {
+    cursor: pointer;
+}
+
+.p-phone-number > strong {
+    color: white;
+}
+
+.p-phone-number > strong:hover {
+    cursor: default;
+}
+
+.delivery {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 15px;
+    background-color: #F80823;
+    width: 210px;
+    height: 28px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery:hover {
+    cursor: pointer;
+}
+
+.p-delivery {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.cart {
+    position: fixed;
+    top: 711px;
+    right: 0px;
+    box-sizing: border-box;
+    width: 96px;
+    height: 190px;
+    background-color: #FF8F39;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.cart-content {
+    width: 100%;
+    height: calc(190px/2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart > .cart-content:first-child {
+    border-bottom: 1px dashed white;
+}
+
+.p-cart {
+    margin-top: 9px;
+    font-size: 15px;
+    color: white;
+}
+
