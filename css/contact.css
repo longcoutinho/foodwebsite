@@ -267,3 +267,18 @@
     width: 208px;
 }
 
+.copyright {
+    width: 100%;
+    height: 46px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright > span {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 36px;
+    color: #FFFFFF;
+}
