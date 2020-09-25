@@ -15,8 +15,19 @@
 </head>
 <body>
     <div class="container-fluid p-0">
+        <div class="cart">
+            <div class="cart-content">
+                <img src="img/giohang.png" alt="Cannot display the image!">
+                <span class="p-cart">GIỎ HÀNG</span>
+            </div>
+            <div class="cart-content">
+                <img src="img/xemay.png" alt="Cannot display the image!">
+                <span class="p-cart">MUA NGAY</span>
+            </div>
+        </div>
         <div class="menu">
             <img class="menu-banner" src="img/banner.png" alt="Cannot display the image!">
+            <span class="p-menu-banner">MENU</span>
             <div class="menu-bar">
                 <div class="logo">
                     <p class="p-logo">LOGO</p>
@@ -44,9 +55,9 @@
                         <img src="img/sp1.png" alt="Cannot display the image!">
                     </div>
                     <div class="about-item">
-                        <div class="item-name-and-prize">
+                        <div class="item-name-and-price">
                             <span class="link-menu-item-name">Burger Cá (Fish Burger)</span>
-                            <span class="link-menu-item-prize">34.000 ₫</span>
+                            <span class="link-menu-item-price">34.000 ₫</span>
                         </div>
                         <div class="item-mo-ta">
                             <span>- 01 Burger Bò Teriyaki (Teriyaki Burger)</span>
@@ -63,14 +74,18 @@
                         <div class="choose-item">
                             <img src="img/sp1.png" alt="Cannot display the image!">
                             <span>MÌ Ý SỐT BÒ BẰM LỚN</span>
-                            <input type="checkbox" checked>
-                            <label>Có sẵn</label>
+                            <form>
+                                <input type="checkbox" disabled>
+                                <label class="span-checked">Có sẵn</label>
+                            </form>
                         </div>
                         <div class="choose-item">
                             <img src="img/sp1.png" alt="Cannot display the image!">
                             <span>MÌ Ý SỐT BÒ BẰM LỚN</span>
-                            <input type="checkbox">
-                            <label>+ 5000 đ</label>
+                            <form>
+                                <input class="round-checkbox" type="checkbox">
+                                <label>+ 5000 đ</label>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -82,35 +97,47 @@
                         <div class="choose-item">
                             <img src="img/sp1.png" alt="Cannot display the image!">
                             <span>Pepsi Lon</span>
-                            <input type="checkbox" checked>
-                            <label>Có sẵn</label>
+                            <form>
+                                <input type="checkbox" disabled>
+                                <label class="span-checked">Có sẵn</label>
+                            </form>
                         </div>
                         <div class="choose-item">
                             <img src="img/sp1.png" alt="Cannot display the image!">
                             <span>Hộp Milo</span>
-                            <input type="checkbox">
-                            <label>+ 5000 đ</label>
+                            <form>
+                                <input class="round-checkbox" type="checkbox">
+                                <label>+ 5000 đ</label>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="link-menu-item-cart">
                 <div class="total">
-                    <span>Cộng (0 món)</span>
-                    <span>Vận chuyển</span>
-                    <span>0đ</span>
-                    <input type="text">
-                    <div class="apply">
-                        <span>Áp dụng</span>
+                    <span class="p-how-many-item">Cộng (0 món)</span>
+                    <div class="delivery-price">
+                        <span>Vận chuyển</span>
+                        <span>0đ</span>
                     </div>
-                    <span>Tổng cộng</span>
-                    <span>0đ</span>
+                    <form class="coupon-code">
+                        <input type="text" placeholder="Nhập mã ưu đãi tại đây">
+                        <div class="apply-button">
+                            <span>Áp dụng</span>
+                        </div>
+                    </form>
+                    <div class="total-price">
+                        <span>Tổng cộng</span>
+                        <span>0đ</span>
+                    </div>
                 </div>
-                <div class="add-to-cart">
-                    <span>Thêm vào giỏ hàng</span>
-                </div>
-                <div class="buy-link-menu-item-now">
-                    <span>Mua ngay</span>
+                <div class="do-with-cart">
+                    <div class="add-to-cart">
+                        <span>Thêm vào giỏ hàng</span>
+                    </div>
+                    <div class="buy-link-menu-item-now">
+                        <span>Mua ngay</span>
+                    </div>
                 </div>
                 <div class="back-to-menu">
                     <span>quay về menu</span>
