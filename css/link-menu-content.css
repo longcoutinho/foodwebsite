@@ -114,6 +114,7 @@
     justify-content: center;
     align-items: center;
     background-color: #EFF2F7;
+    border-radius: 4px;
 }
 
 .page-number:not(:nth-child(2)) {
