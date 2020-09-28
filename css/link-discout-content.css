@@ -33,6 +33,10 @@
     width: 555px;
 }
 
+.p-discout-item:hover{
+    cursor: pointer;
+}
+
 .p-discout-item-title {
     font-size: 20px;
     font-weight: 600;

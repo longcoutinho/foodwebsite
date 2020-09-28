@@ -34,14 +34,21 @@
     width: calc(50%-14px);
 }
 
+.img-link-introduction:nth-child(2) {
+    margin-left: 26px;
+}
+
 .p-link-introduction {
     position: relative;
-    margin-left: 26px;
     height: 100%;
     width: calc(50%-14px);
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.p-link-introduction:nth-child(2){
+    margin-left: 26px;
 }
 
 .p-link-introduction-title {

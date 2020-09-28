@@ -127,24 +127,9 @@
     align-items: center;
 }
 
-.p-logo-big {
-    position: relative;
-    margin-top: 36.35px;
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29px;
-    color: #FFFFFF;
-}
-
-.p-logo-big::after {
-    position: absolute;
-    top: 54.5px;
-    left: -23px;
-    content: "";
+.logo-big {
     width: 113px;
-    height: 0px;
-    border-top: 1px solid #FFFFFF;
+    height: 113px;
 }
 
 .p-register-information {
