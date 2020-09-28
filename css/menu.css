@@ -67,15 +67,15 @@
     align-items: center;
 }
 
-.menu-label > li {
+.menu-label > li > a {
     color: white;   
     font-size: 16px;
     font-weight: bold;
     line-height: 18px;
 }
 
-.menu-label > li:hover {
-    cursor: pointer;
+.menu-label > li > a:hover {
+    text-decoration: none;
 }
 
 .calling-me {
@@ -146,7 +146,7 @@
 
 .cart {
     position: fixed;
-    top: 711px;
+    top: 72%;
     right: 0px;
     box-sizing: border-box;
     width: 96px;
@@ -156,6 +156,10 @@
     flex-direction: column;
     z-index: 1;
     border-radius: 10px 0px 0px 10px;
+}
+
+.cart:hover {
+    cursor: pointer;
 }
 
 .cart-content {

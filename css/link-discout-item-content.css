@@ -34,8 +34,6 @@
     font-weight: bold;
     line-height: 16px;
     color: #444444;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .p-link-discout-item-content:not(:first-child){

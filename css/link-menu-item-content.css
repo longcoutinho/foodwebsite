@@ -181,7 +181,7 @@
 .link-menu-item-cart {
     position: relative;
     margin-left: 32px;
-    margin-top: 32px;
+    margin-top: 23px;
     width: 359px;
     display: flex;
     flex-direction: column;
@@ -303,6 +303,10 @@
     border-radius: 10px;
 }
 
+.add-to-cart:hover{
+    cursor: pointer;
+}
+
 .add-to-cart > span {
     font-size: 16px;
     font-weight: medium;
@@ -321,6 +325,9 @@
     border-radius: 10px;
 }
 
+.buy-link-menu-item-now:hover{
+    cursor: pointer;
+}
 
 .buy-link-menu-item-now > span {
     font-size: 16px;
@@ -341,7 +348,11 @@
     border-radius: 10px;
 }
 
-.back-to-menu > span {
+.back-to-menu > a:hover{
+    text-decoration: none;
+}
+
+.back-to-menu > a > span {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: medium;

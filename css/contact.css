@@ -62,6 +62,10 @@
     height: 75px;
 }
 
+.call-me-big:hover {
+    cursor: pointer;
+}
+
 .dienthoai-big {
     margin-top: 8px;
     margin-right: 39.25px;

@@ -219,6 +219,10 @@
     color: #444444;
 }
 
+.p-top-recommended-option:hover {
+    cursor: pointer;
+}
+
 .p-top-recommended-option:not(:first-child){
     margin-left: 27px;
 }
@@ -246,7 +250,7 @@
     height: 262px;
 }
 
-.item-image > img {
+.item-image > a > img {
     width: 100%;
     height: 100%;
 }
