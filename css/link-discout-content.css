@@ -33,7 +33,11 @@
     width: 555px;
 }
 
-.p-discout-item:hover{
+.p-discout-item > a:hover {
+    text-decoration: none;
+}
+
+.p-discout-item-title:hover{
     cursor: pointer;
 }
 
@@ -81,6 +85,10 @@
     border-radius: 4px;
 }
 
+.page-number:hover{
+    cursor: pointer;
+}
+
 .page-number:not(:nth-child(2)) {
     margin-left: 11px;
 }
@@ -89,6 +97,15 @@
     margin-right: 25px;
 }
 
+.left-arrow:hover{
+    cursor: pointer;
+}
+
 .right-arrow {
     margin-left: 25px;
 }
+
+.right-arrow:hover{
+    cursor: pointer;
+}
+

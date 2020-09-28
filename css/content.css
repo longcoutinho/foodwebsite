@@ -283,3 +283,6 @@
     height: 20px;
 }
 
+.item-add:hover{
+    cursor: pointer;
+}

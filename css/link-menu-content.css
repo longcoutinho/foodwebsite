@@ -102,6 +102,10 @@
     height: 20px;
 }
 
+.item-add:hover{
+    cursor: pointer;
+}
+
 .page-navigation {
     position: relative;
     margin-top: 176px;
